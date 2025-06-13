@@ -1,40 +1,33 @@
-# Welcome to Remix!
+# 💸 Crypto Dashboard by Moises Curiel
 
-- 📖 [Remix docs](https://remix.run/docs)
+A responsive app that fetches real-time cryptocurrency exchange rates (USD and BTC) from Coinbase, with drag-and-drop reordering and localStorage persistence.
 
-## Development
+---
 
-Run the dev server:
+## 🧠 Features
 
-```sh
+- 🔁 **Real-time** exchange rate data for 10 selected cryptocurrencies
+- 💵 **USD + BTC conversion rates** for each coin
+- 🌓 **Dark/light mode** toggle (persists across sessions)
+- 🧩 **Drag & drop** card reordering
+- 🧠 **LocalStorage persistence** of order & theme
+- 🔎 **Search filter** by coin name or symbol
+- 💨 Fully styled with **Tailwind CSS**
+- 🧪 Unit tested with **Vitest** and **React Testing Library**
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone and Install
+
+```bash
+git clone https://github.com/moy-cur/crypto-dashboard.git
+cd crypto-dashboard
+npm install
+```
+
+### 2. Run the project
+```
 npm run dev
 ```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
